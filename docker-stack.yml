@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+
+  api:
+    image: registry.gitlab.com/la-casa-de-papel/rest-api
+    ports:
+      80:8080
